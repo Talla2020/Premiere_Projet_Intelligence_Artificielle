@@ -14,7 +14,7 @@ st.markdown(
         <p> Analyse exploratoire et descriptive du marché immobilier californien </p>
     </div>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True 
 )
 
 # Sidebar navigation
@@ -58,7 +58,7 @@ elif menu == 'Aperçu des données':
     st.subheader('5 premières lignes :')
     st.dataframe(data.head())
     st.subheader('5 dernières lignes :')
-    st.dataframe(data.tail())
+    st.dataframe(data.tail())cccc
     st.subheader('Dimensions :')
     st.write(data.shape)
     st.write(f"Nombre de colonnes: {data.shape[1]}")
